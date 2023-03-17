@@ -1,13 +1,29 @@
 body {
+    font-family: 'Roboto Slab', serif;
     background-color: rgba(135, 135, 240, 0.55);
 }
 
 h1 {
-    color: white;
+    color: rgb(255, 255, 255);
     background-color: brown;
-    border: 2PX solid red;
-    text-decoration-style: double;
+    border: 2px solid red;
+    text-decoration-line: line-through; 
 }
+
+.link {
+    text-align: center;
+    font-size: 20px;
+    text-transform: lowercase;
+}
+
+.link a {
+    text-decoration: none;
+    color: aqua;
+    text-shadow: 2px 2px 5px royalblue;
+    border-style: solid;
+    border-color: aquamarine;
+}
+
 /*CLASS*/
 .center {
     text-align: center;
@@ -15,6 +31,11 @@ h1 {
 
 .fonte-branco {
     color: white;
+    border-style: solid;
+    border-width: 2px 2px 10px 2px;
+    border-color: brown;
+    border-radius: 5px;
+    margin-top: 30px;
 }
 p {
     color: white;
@@ -22,6 +43,6 @@ p {
   }
   /*ID*/
   #para {
-  font-family: verdana;
-  font-size:20px;
+     font-family: verdana;
+    font-size:20px;
   }
